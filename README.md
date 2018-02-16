@@ -60,8 +60,8 @@ __Example:__
 All the operations are provided below together with curl examples to an active host.
 ### List all superheroes
 `curl -k <HOST>/superheroes/`
->> As an self-signed certificate was used for SSL connection, we have to use __-k__ flag with curl 
->> to allow access to insecure sites.
+> As an self-signed certificate was used for SSL connection, we have to use __-k__ flag with curl 
+> to allow access to insecure sites.
 
 __Example:__
 ```bash
@@ -73,7 +73,7 @@ __Example:__
 ```bash
 curl -k https://85.90.245.217/superheroes/Superman
 ```
->> Please note that names are case-sensitive
+> Please note that names are case-sensitive
 ### Login
 ```
 curl -i -k -H "Content-Type: application/json" \
@@ -86,7 +86,7 @@ curl -i -k -H "Content-Type: application/json" \
 -X POST -d '{"username":"payworks", "password": "payworks"}' \
 https://85.90.245.217/login
 ```
->> An authorization token will be provided in __Authorization__ header
+> An authorization token will be provided in __Authorization__ header
 ### Superhero creation
 ```
 curl -k -H "Authorization: <TOKEN>" -H "Content-Type: application/json"\
@@ -103,7 +103,7 @@ TRLkN2ccCJiCWXgpig7B-c8904AdQVlKZkDS2b0QiqYQs2wjCJkL6t2qQ" \
 "firstAppearance": "2012-01-01", "allies":["Visa", "AliPay"]}' \
 https://85.90.245.217/superheroes
 ```
->> Note that the token has to be provided with the leading Bearer string
+> Note that token has to be provided with the leading Bearer string
 
 ### Superhero update
 If you wish to update some of the fields, call the creation endpoint with the existing superhero name and with changed properties.
