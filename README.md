@@ -58,7 +58,6 @@ __Example:__
 }
 ```
 
-All the operations are provided below together with curl examples to an active host.
 ### List all superheroes
 `curl -k <HOST>/superheroes/`
 > As an self-signed certificate was used for SSL connection, we have to use __-k__ flag with curl 
