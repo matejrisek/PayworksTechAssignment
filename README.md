@@ -28,15 +28,16 @@ Note that docker build should be run from the project directory as Dockerfile AD
 
 ## App usage
 ### Superhero
-Superhero has the following properties
-Property | Description | Mandatory | Format
--------- | ----------- | --------- | ------
-name | Superhero's name | Yes | -
-pseudonym | Superhero's pseudonym | No | -
-publisher | Superhero's publisher | No | -
-powers | List of superhero's powers | No | -
-allies | List of superhero's allies | No | -
-firstAppearance | First appearance of the superhero | No | YYYY-MM-DD
+Superhero has the following properties:
+
+| Property | Description | Mandatory | Format |
+| -------- | ----------- | --------- | ------ |
+| name | Superhero's name | Yes | - |
+| pseudonym | Superhero's pseudonym | No | - |
+| publisher | Superhero's publisher | No | - |
+| powers | List of superhero's powers | No | - |
+| allies | List of superhero's allies | No | - |
+| firstAppearance | First appearance of the superhero | No | YYYY-MM-DD |
 
 __Example:__
 ```json
